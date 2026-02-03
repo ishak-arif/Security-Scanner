@@ -1,6 +1,6 @@
 # Security Scanner
 
-A security scanner that detects vulnerabilities using Semgrep
+A security scanner that detects vulnerabilities using Semgrep.
 
 ## Installation
 ```bash
@@ -18,3 +18,10 @@ target = "your_file.py"
 ```bash
 python3 main.py
 ```
+
+## Roadmap
+- [ ] Add Typer for improved CLI.
+- [ ] Add Rich for aesthetic terminal output.
+- [ ] Add support for scanning multiple files.
+- [ ] Export results to JSON/HTML reports.
+- [ ] Add GUI interface.
